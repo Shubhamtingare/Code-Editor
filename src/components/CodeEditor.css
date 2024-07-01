@@ -1,0 +1,35 @@
+.code-editor {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 80vw;
+}
+
+.code-input,
+.code-highlighted {
+  width: 48%;
+  height: 300px;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  vertical-align: top;
+  margin: 0;
+}
+
+.code-input {
+  background: #2d2d2d;
+  color: white;
+  caret-color: white;
+  resize: none;
+  outline: none;
+  border: 1px solid #ddd;
+}
+
+.code-highlighted {
+  overflow: auto;
+  background: #f5f5f5;
+  border: 1px solid #333;
+}
